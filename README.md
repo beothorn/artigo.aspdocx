@@ -1,4 +1,4 @@
 MaisUmGeradorDeLeroLero
 =======================
 
-Mais um gerador de Lero-Lero
+Mais uma versão do gerador de Lero-Lero com scroll infinito.
