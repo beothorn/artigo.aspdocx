@@ -1,0 +1,51 @@
+<html>
+    <style>
+        body{ 
+            margin:10px 0px;
+            padding:0px; 
+            text-align:center;
+        }
+        #Content{ 
+            width:900px; 
+            margin:0px auto; 
+            text-align:justify; 
+            padding:15px; 
+        }
+        p {
+            text-indent:3em;
+        }
+        p:first-letter{ 
+            font-size:200%;
+        }
+    </style>
+    <body>
+        <div id="Content">
+        </div>
+        <script type="text/javascript" src="lero.js"></script>
+        <script>
+            function appendLeroLero(){
+                var p = document.createElement("p")
+                var content = document.createTextNode(leroLero( 8+Math.floor(Math.random()*5) ))
+                p.appendChild(content)
+                document.getElementById("Content").appendChild(p)
+            }
+            
+            var h1 = document.createElement("h1")
+            var string = objetoArray.getRandomElement()
+            var firstIsUpper = string.charAt(0).toUpperCase() + string.slice(1)
+            var content = document.createTextNode(firstIsUpper)
+            h1.appendChild(content)
+            document.getElementById("Content").appendChild(h1)
+            
+            while(document.body.scrollHeight == document.body.scrollTop + window.innerHeight){
+                appendLeroLero()
+            }
+            
+            document.addEventListener('scroll', function (event) {
+                if (document.body.scrollHeight == document.body.scrollTop + window.innerHeight) {
+                    appendLeroLero()
+                }
+            })
+        </script>
+    </body>
+</html>
