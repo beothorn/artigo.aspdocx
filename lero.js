@@ -33,7 +33,8 @@
       "Desta maneira, ",
       "O cuidado em identificar pontos críticos n",
       "A certificação de metodologias que nos auxiliam a lidar com ",
-      "Logo, "
+      "Logo, ",
+      "No presente momento, novamente "
     );
 
     objetoArray = new Array(
@@ -66,7 +67,10 @@
       "a percepção das dificuldades ",
       "o entendimento das metas propostas ",
       "o consenso sobre a necessidade de qualificação ",
-      "o julgamento imparcial das eventualidades "
+      "o julgamento imparcial das eventualidades ",
+      "a situação evidencial do ocorrido ",
+      "a unidade corporativa moderna ",
+      "a desconsideração sobre a missão e os valores corporativos ",
     );
 
     acaoArray = new Array(
@@ -99,7 +103,9 @@
       "apresenta tendências no sentido de aprovar a manutenção ",
       "estende o alcance e a importância ",
       "deve passar por modificações independentemente ",
-      "afeta positivamente a correta previsão "
+      "afeta positivamente a correta previsão ",
+      "impacta diretamente na averiguação ",
+      "deprime a expressividade das relações "
     );
 
     sujeitoArray = new Array(
@@ -132,7 +138,10 @@
       "do orçamento setorial.",
       "do retorno esperado a longo prazo.",
       "do investimento em reciclagem técnica.",
-      "do remanejamento dos quadros funcionais."
+      "do remanejamento dos quadros funcionais.",
+      "do mecanismo contextualizado dos objetivos processuais.",
+      "da aferição dos níveis contratados para serviços.",
+      "da averiguação de métodos condizentes com a realidade"
     );
 
 Array.prototype.getRandomElement = function() {
