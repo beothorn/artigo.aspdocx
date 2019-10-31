@@ -141,7 +141,7 @@
       "do remanejamento dos quadros funcionais.",
       "do mecanismo contextualizado dos objetivos processuais.",
       "da aferição dos níveis contratados para serviços.",
-      "da averiguação de métodos condizentes com a realidade"
+      "da averiguação de métodos condizentes com a realidade."
     );
 
 Array.prototype.getRandomElement = function() {
